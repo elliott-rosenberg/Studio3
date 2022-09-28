@@ -1,5 +1,5 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: rgb(225, 247, 205);
 }
 
 /* Uncomment below if images are way too big.
@@ -8,7 +8,22 @@ Selects all image tags and makes them 500px;
 /*img {*/
 /*  width: 500px;*/
 /*}*/
+h1{
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery-item{
+  width: 30%;
+  min-width: 400px;
+  height: 300px;
+}
 
 .gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 }
